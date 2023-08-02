@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preeti Fitness Center</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="#">
+<style>
+    body{
+        font-family: 'roboto ital',cursive;
+        color: white;
+    margin : 0px;
+    padding :0px;
+    background: url(gym-girl2.png);
+    height: 14px;
+    }
+    .left{
+       /* border: 2px solid red;*/
+        position: absolute;
+            left: 34px;
+            top: 0px;
+            display: inline;
+    }
+    .left img{
+        width: 80px;
+        margin-top: 0PX;
+    }
+    .left div{
+        text-align: center;
+        line-height: 10px;
+        font-size: 15px;
+    }
+    .mid{
+        position: relative;
+        margin:5px auto;
+        width: 43%;
+        display: block;
+       /* border: 2px solid rgb(39, 23, 116);*/
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline block;
+      /*  border: 2px solid rgb(228, 240, 235);*/
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 15px; 
+        margin: 1PX;
+    }
+    .navbar li a{
+        color: rgb(232, 227, 227);
+        padding: 20px 10px;
+        text-decoration: none;
+    
+    }
+    .navbar li a:hover,.navbar li a:active{
+        text-decoration: underline;
+        color: grey;
+    }
+    
+   
+    .btn li a:hover,.btn li a.active{
+    
+        text-decoration: underline;
+        color:grey;
+    }
+    .btn{
+        margin: opx 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover
+{ 
+    background-color: grey;
+}
+.container{
+    border: 2px solid white;
+    margin: 60px 80px;
+    padding:78px;
+    width:33%;
+    border-radius: 20px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    margin: 35px;
+    width:300px;
+    border-radius: 8px;
+    font-family: roboto ital,cursive;
+
+}
+.container h1{
+    text-align: center;
+    font-size: 35PX;
+}
+.container button{
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+
+}
+</style>
+<body>
+    <header class="header"> 
+            <!--left box for logo-->
+            <div class="left">
+           <img src="logo2gym.jpg" alt="">
+           <div>PREETI FITNESS</div>
+
+
+        </div>
+        <!--mid box for navbar-->
+        <div class="mid"> 
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#" >FITNESS CALCULATOR</a></li>
+                <li><a href="#" >CONTACT</a></li>
+            </ul>
+        </div>
+        <!--right box for button-->
+        <div class="right">
+              <button class="btn">
+                CALL US NOW
+              </button>
+              <button class="btn">EMAIL US</button>
+        </div>  
+      </header> 
+      <div  class="container">
+        <h1>JOIN THE BEST GYM OF MUZAFFARPUR</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder ="ENTER YOUR NAME">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder ="ENTER YOUR AGE">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder ="ENTER YOUR GENDER">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder ="ENTER YOUR LOCALITY">
+            </div>
+            <button class="btn">REGISTER</button>
+        </form>
+
+      </div>
+
+     
+</body>
+</html>
